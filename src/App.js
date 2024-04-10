@@ -5,7 +5,7 @@ import HomePage from "./pages/HomePage/HomePage";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/avm-portfolio'>
       <Routes>
         <Route path="/" element={<HomePage />} />
       </Routes>
