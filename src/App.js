@@ -7,7 +7,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/avm-portfolio" element={<HomePage />} />
+        <Route path="/" element={<HomePage />} />
       </Routes>
 
     </BrowserRouter>
