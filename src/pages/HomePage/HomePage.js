@@ -44,37 +44,25 @@ function HomePage() {
             </section>
 
             <section className='home__buttons'>
-                {/* <div className='home__buttons-button'>
-                    PROJECTS
-                </div>
-                <div className='home__buttons-button'>
-                    WORK HISTORY
-                </div>
-                <div className='home__buttons-button'>
-                    EDUCATION
-                </div>
-                <div className='home__buttons-button'>
-                    taking up space
-                </div> */}
                 <div className='home__buttons-neon'>
-                    <span className='home__buttons-neon--1'></span>
-                    <span className='home__buttons-neon--2'></span>
-                    <span className='home__buttons-neon--3'></span>
-                    <span className='home__buttons-neon--4'></span>
+                    {/* <span className='home__buttons-neon--1'></span> */}
+                    {/* <span className='home__buttons-neon--2'></span> */}
+                    {/* <span className='home__buttons-neon--3'></span> */}
+                    {/* <span className='home__buttons-neon--4'></span> */}
                     projects
                 </div>
                 <div className='home__buttons-neon'>
-                    <span className='home__buttons-neon--1'></span>
-                    <span className='home__buttons-neon--2'></span>
-                    <span className='home__buttons-neon--3'></span>
-                    <span className='home__buttons-neon--4'></span>
+                    {/* <span className='home__buttons-neon--1'></span> */}
+                    {/* <span className='home__buttons-neon--2'></span> */}
+                    {/* <span className='home__buttons-neon--3'></span> */}
+                    {/* <span className='home__buttons-neon--4'></span> */}
                     work history
                 </div>
                 <div className='home__buttons-neon'>
-                    <span className='home__buttons-neon--1'></span>
-                    <span className='home__buttons-neon--2'></span>
-                    <span className='home__buttons-neon--3'></span>
-                    <span className='home__buttons-neon--4'></span>
+                    {/* <span className='home__buttons-neon--1'></span> */}
+                    {/* <span className='home__buttons-neon--2'></span> */}
+                    {/* <span className='home__buttons-neon--3'></span> */}
+                    {/* <span className='home__buttons-neon--4'></span> */}
                     education
                 </div>
             </section>
