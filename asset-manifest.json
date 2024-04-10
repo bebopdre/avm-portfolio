@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.454e98c8.css",
-    "main.js": "/static/js/main.ba3867fc.js",
+    "main.css": "/static/css/main.f97e8d2b.css",
+    "main.js": "/static/js/main.883a9f89.js",
     "static/media/avm.jpg": "/static/media/avm.63c75fedc865e6cf950f.jpg",
     "static/media/Rajdhani-Bold.ttf": "/static/media/Rajdhani-Bold.a5a831c1b8c8eb1b83ff.ttf",
     "static/media/MontserratAlternates-ExtraBold.ttf": "/static/media/MontserratAlternates-ExtraBold.be0c7493a022c76bed70.ttf",
     "static/media/icons8-github.svg": "/static/media/icons8-github.be71f00d48597d70bf7eeb0360a66fb3.svg",
     "static/media/icons8-linkedin.svg": "/static/media/icons8-linkedin.071f7ddb9b224ac1c667412cbfc526f5.svg",
     "index.html": "/index.html",
-    "main.454e98c8.css.map": "/static/css/main.454e98c8.css.map",
-    "main.ba3867fc.js.map": "/static/js/main.ba3867fc.js.map"
+    "main.f97e8d2b.css.map": "/static/css/main.f97e8d2b.css.map",
+    "main.883a9f89.js.map": "/static/js/main.883a9f89.js.map"
   },
   "entrypoints": [
-    "static/css/main.454e98c8.css",
-    "static/js/main.ba3867fc.js"
+    "static/css/main.f97e8d2b.css",
+    "static/js/main.883a9f89.js"
   ]
 }
