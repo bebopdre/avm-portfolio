@@ -4,6 +4,8 @@ import github from '../../assets/images/icons/icons8-github.svg';
 import linkedin from '../../assets/images/icons/icons8-linkedin.svg';
 import email from '../../assets/images/icons/icons8-email-50.png';
 
+import QRCode from 'qrcode.react';
+
 function HomePage() {
     return (
         <main className="home">
@@ -11,73 +13,82 @@ function HomePage() {
             <div className='stars2'></div>
             <div className='stars3'></div>
 
-            <section className='home__picture'>
-                <div className='home__picture-img'></div>
-                <div className='ship'>
-                    <div className='ship-rotate'>
-                        <div className='pod'></div>
-                        <div className='fuselage'></div>
+            <article className='tablet'>
+                <h1 className='tablet__title'>
+                    OOPS!
+                </h1>
+                <p className='tablet__text'>
+                    this site is currently only available on mobile. please scan below to access on mobile device and stay tuned for updates!
+
+                </p>
+                <QRCode value='www.andreamatos.dev' />
+            </article>
+
+            <article className='mobile'>
+
+                <section className='home__picture'>
+                    <div className='home__picture-img'></div>
+                    <div className='ship'>
+                        <div className='ship-rotate'>
+                            <div className='pod'></div>
+                            <div className='fuselage'></div>
+                        </div>
                     </div>
-                </div>
-            </section>
+                </section>
 
-            <h1 className='home__title'>
-                ANDREA MATOS
-            </h1>
+                <h1 className='home__title'>
+                    ANDREA MATOS
+                </h1>
 
-            <section className='home__socials'>
-                <div className='home__socials-social'>
-                    <img className='home__socials-social-img' alt='GitHub' src={github} />
-                </div>
-
-                <p className='home__socials-separator'> | </p>
-
-                <div className='home__socials-social'>
-                    <img className='home__socials-social-img' alt='LinkedIn' src={linkedin} />
+                <div className='home__sub-title'>
+                    <h2 className='home__sub-title-text'>
+                        &lt; software engineer /&gt;
+                    </h2>
                 </div>
 
-                <p className='home__socials-separator'> | </p>
+                <section className='home__socials'>
+                    <a href='https://github.com/bebopdre' className='home__socials-social'>
+                        <img className='home__socials-social-img' alt='GitHub' src={github} />
+                    </a>
 
-                <div className='home__socials-social'>
-                    <img className='home__socials-social-img' alt='E-mail' src={email} />
-                </div>
-            </section>
+                    <p className='home__socials-separator'> | </p>
 
-            <section className='home__buttons'>
-                {/* <div className='home__buttons-button'>
-                    PROJECTS
-                </div>
-                <div className='home__buttons-button'>
-                    WORK HISTORY
-                </div>
-                <div className='home__buttons-button'>
-                    EDUCATION
-                </div>
-                <div className='home__buttons-button'>
-                    taking up space
-                </div> */}
-                <div className='home__buttons-neon'>
-                    <span className='home__buttons-neon--1'></span>
-                    <span className='home__buttons-neon--2'></span>
-                    <span className='home__buttons-neon--3'></span>
-                    <span className='home__buttons-neon--4'></span>
-                    projects
-                </div>
-                <div className='home__buttons-neon'>
-                    <span className='home__buttons-neon--1'></span>
-                    <span className='home__buttons-neon--2'></span>
-                    <span className='home__buttons-neon--3'></span>
-                    <span className='home__buttons-neon--4'></span>
-                    work history
-                </div>
-                <div className='home__buttons-neon'>
-                    <span className='home__buttons-neon--1'></span>
-                    <span className='home__buttons-neon--2'></span>
-                    <span className='home__buttons-neon--3'></span>
-                    <span className='home__buttons-neon--4'></span>
-                    education
-                </div>
-            </section>
+                    <a href='https://www.linkedin.com/in/drevm/' className='home__socials-social'>
+                        <img className='home__socials-social-img' alt='LinkedIn' src={linkedin} />
+                    </a>
+
+                    <p className='home__socials-separator'> | </p>
+
+                    <button onClick={() => window.location = 'mailto:drevmpro@gmail.com'} className='home__socials-social home__socials-social--button'>
+                        <img className='home__socials-social-img' alt='E-mail' src={email} />
+                    </button>
+                </section>
+
+                <section className='home__buttons'>
+                    <div className='home__buttons-neon'>
+                        {/* <span className='home__buttons-neon--1'></span> */}
+                        {/* <span className='home__buttons-neon--2'></span> */}
+                        {/* <span className='home__buttons-neon--3'></span> */}
+                        {/* <span className='home__buttons-neon--4'></span> */}
+                        projects
+                    </div>
+                    <div className='home__buttons-neon'>
+                        {/* <span className='home__buttons-neon--1'></span> */}
+                        {/* <span className='home__buttons-neon--2'></span> */}
+                        {/* <span className='home__buttons-neon--3'></span> */}
+                        {/* <span className='home__buttons-neon--4'></span> */}
+                        work history
+                    </div>
+                    <div className='home__buttons-neon'>
+                        {/* <span className='home__buttons-neon--1'></span> */}
+                        {/* <span className='home__buttons-neon--2'></span> */}
+                        {/* <span className='home__buttons-neon--3'></span> */}
+                        {/* <span className='home__buttons-neon--4'></span> */}
+                        education
+                    </div>
+                </section>
+            </article>
+
         </main>
     )
 }
