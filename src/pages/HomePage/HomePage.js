@@ -11,67 +11,73 @@ function HomePage() {
             <div className='stars2'></div>
             <div className='stars3'></div>
 
-            <section className='home__picture'>
-                <div className='home__picture-img'></div>
-                <div className='ship'>
-                    <div className='ship-rotate'>
-                        <div className='pod'></div>
-                        <div className='fuselage'></div>
+
+
+            <article className='mobile'>
+
+                <section className='home__picture'>
+                    <div className='home__picture-img'></div>
+                    <div className='ship'>
+                        <div className='ship-rotate'>
+                            <div className='pod'></div>
+                            <div className='fuselage'></div>
+                        </div>
                     </div>
+                </section>
+
+                <h1 className='home__title'>
+                    ANDREA MATOS
+                </h1>
+
+                <div className='home__sub-title'>
+                    <h2 className='home__sub-title-text'>
+                        &lt; software engineer /&gt;
+                    </h2>
                 </div>
-            </section>
 
-            <h1 className='home__title'>
-                ANDREA MATOS
-            </h1>
+                <section className='home__socials'>
+                    <a href='https://github.com/bebopdre' className='home__socials-social'>
+                        <img className='home__socials-social-img' alt='GitHub' src={github} />
+                    </a>
 
-            <div className='home__sub-title'>
-                <h2 className='home__sub-title-text'>
-                    &lt; software engineer /&gt;
-                </h2>
-            </div>
+                    <p className='home__socials-separator'> | </p>
 
-            <section className='home__socials'>
-                <a href='https://github.com/bebopdre' className='home__socials-social'>
-                    <img className='home__socials-social-img' alt='GitHub' src={github} />
-                </a>
+                    <a href='https://www.linkedin.com/in/drevm/' className='home__socials-social'>
+                        <img className='home__socials-social-img' alt='LinkedIn' src={linkedin} />
+                    </a>
 
-                <p className='home__socials-separator'> | </p>
+                    <p className='home__socials-separator'> | </p>
 
-                <a href='https://www.linkedin.com/in/drevm/' className='home__socials-social'>
-                    <img className='home__socials-social-img' alt='LinkedIn' src={linkedin} />
-                </a>
+                    <button onClick={() => window.location = 'mailto:drevmpro@gmail.com'} className='home__socials-social home__socials-social--button'>
+                        <img className='home__socials-social-img' alt='E-mail' src={email} />
+                    </button>
+                </section>
 
-                <p className='home__socials-separator'> | </p>
+                <section className='home__buttons'>
+                    <div className='home__buttons-neon'>
+                        {/* <span className='home__buttons-neon--1'></span> */}
+                        {/* <span className='home__buttons-neon--2'></span> */}
+                        {/* <span className='home__buttons-neon--3'></span> */}
+                        {/* <span className='home__buttons-neon--4'></span> */}
+                        projects
+                    </div>
+                    <div className='home__buttons-neon'>
+                        {/* <span className='home__buttons-neon--1'></span> */}
+                        {/* <span className='home__buttons-neon--2'></span> */}
+                        {/* <span className='home__buttons-neon--3'></span> */}
+                        {/* <span className='home__buttons-neon--4'></span> */}
+                        work history
+                    </div>
+                    <div className='home__buttons-neon'>
+                        {/* <span className='home__buttons-neon--1'></span> */}
+                        {/* <span className='home__buttons-neon--2'></span> */}
+                        {/* <span className='home__buttons-neon--3'></span> */}
+                        {/* <span className='home__buttons-neon--4'></span> */}
+                        education
+                    </div>
+                </section>
+            </article>
 
-                <button onClick={() => window.location = 'mailto:drevmpro@gmail.com'} className='home__socials-social home__socials-social--button'>
-                    <img className='home__socials-social-img' alt='E-mail' src={email} />
-                </button>
-            </section>
-
-            <section className='home__buttons'>
-                <div className='home__buttons-neon'>
-                    {/* <span className='home__buttons-neon--1'></span> */}
-                    {/* <span className='home__buttons-neon--2'></span> */}
-                    {/* <span className='home__buttons-neon--3'></span> */}
-                    {/* <span className='home__buttons-neon--4'></span> */}
-                    projects
-                </div>
-                <div className='home__buttons-neon'>
-                    {/* <span className='home__buttons-neon--1'></span> */}
-                    {/* <span className='home__buttons-neon--2'></span> */}
-                    {/* <span className='home__buttons-neon--3'></span> */}
-                    {/* <span className='home__buttons-neon--4'></span> */}
-                    work history
-                </div>
-                <div className='home__buttons-neon'>
-                    {/* <span className='home__buttons-neon--1'></span> */}
-                    {/* <span className='home__buttons-neon--2'></span> */}
-                    {/* <span className='home__buttons-neon--3'></span> */}
-                    {/* <span className='home__buttons-neon--4'></span> */}
-                    education
-                </div>
-            </section>
         </main>
     )
 }
