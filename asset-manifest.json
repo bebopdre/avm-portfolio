@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/avm-portfolio/static/css/main.abca75ce.css",
-    "main.js": "/avm-portfolio/static/js/main.d7dada5e.js",
+    "main.css": "/avm-portfolio/static/css/main.ea9db6ae.css",
+    "main.js": "/avm-portfolio/static/js/main.b9dc2c65.js",
     "static/media/avm.jpg": "/avm-portfolio/static/media/avm.63c75fedc865e6cf950f.jpg",
     "static/media/Rajdhani-Bold.ttf": "/avm-portfolio/static/media/Rajdhani-Bold.a5a831c1b8c8eb1b83ff.ttf",
     "static/media/MontserratAlternates-ExtraBold.ttf": "/avm-portfolio/static/media/MontserratAlternates-ExtraBold.be0c7493a022c76bed70.ttf",
     "static/media/icons8-github.svg": "/avm-portfolio/static/media/icons8-github.be71f00d48597d70bf7eeb0360a66fb3.svg",
     "static/media/icons8-linkedin.svg": "/avm-portfolio/static/media/icons8-linkedin.071f7ddb9b224ac1c667412cbfc526f5.svg",
     "index.html": "/avm-portfolio/index.html",
-    "main.abca75ce.css.map": "/avm-portfolio/static/css/main.abca75ce.css.map",
-    "main.d7dada5e.js.map": "/avm-portfolio/static/js/main.d7dada5e.js.map"
+    "main.ea9db6ae.css.map": "/avm-portfolio/static/css/main.ea9db6ae.css.map",
+    "main.b9dc2c65.js.map": "/avm-portfolio/static/js/main.b9dc2c65.js.map"
   },
   "entrypoints": [
-    "static/css/main.abca75ce.css",
-    "static/js/main.d7dada5e.js"
+    "static/css/main.ea9db6ae.css",
+    "static/js/main.b9dc2c65.js"
   ]
 }
