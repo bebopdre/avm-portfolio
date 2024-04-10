@@ -25,22 +25,28 @@ function HomePage() {
                 ANDREA MATOS
             </h1>
 
+            <div className='home__sub-title'>
+                <h2 className='home__sub-title-text'>
+                    &lt; software engineer /&gt;
+                </h2>
+            </div>
+
             <section className='home__socials'>
-                <div className='home__socials-social'>
+                <a href='https://github.com/bebopdre' className='home__socials-social'>
                     <img className='home__socials-social-img' alt='GitHub' src={github} />
-                </div>
+                </a>
 
                 <p className='home__socials-separator'> | </p>
 
-                <div className='home__socials-social'>
+                <a href='https://www.linkedin.com/in/drevm/' className='home__socials-social'>
                     <img className='home__socials-social-img' alt='LinkedIn' src={linkedin} />
-                </div>
+                </a>
 
                 <p className='home__socials-separator'> | </p>
 
-                <div className='home__socials-social'>
+                <button onClick={() => window.location = 'mailto:drevmpro@gmail.com'} className='home__socials-social home__socials-social--button'>
                     <img className='home__socials-social-img' alt='E-mail' src={email} />
-                </div>
+                </button>
             </section>
 
             <section className='home__buttons'>
