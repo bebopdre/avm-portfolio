@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/avm-portfolio/static/css/main.3e413494.css",
+    "main.css": "/avm-portfolio/static/css/main.639d78d1.css",
     "main.js": "/avm-portfolio/static/js/main.d7dada5e.js",
     "static/media/avm.jpg": "/avm-portfolio/static/media/avm.63c75fedc865e6cf950f.jpg",
     "static/media/Rajdhani-Bold.ttf": "/avm-portfolio/static/media/Rajdhani-Bold.a5a831c1b8c8eb1b83ff.ttf",
@@ -8,11 +8,11 @@
     "static/media/icons8-github.svg": "/avm-portfolio/static/media/icons8-github.be71f00d48597d70bf7eeb0360a66fb3.svg",
     "static/media/icons8-linkedin.svg": "/avm-portfolio/static/media/icons8-linkedin.071f7ddb9b224ac1c667412cbfc526f5.svg",
     "index.html": "/avm-portfolio/index.html",
-    "main.3e413494.css.map": "/avm-portfolio/static/css/main.3e413494.css.map",
+    "main.639d78d1.css.map": "/avm-portfolio/static/css/main.639d78d1.css.map",
     "main.d7dada5e.js.map": "/avm-portfolio/static/js/main.d7dada5e.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e413494.css",
+    "static/css/main.639d78d1.css",
     "static/js/main.d7dada5e.js"
   ]
 }
