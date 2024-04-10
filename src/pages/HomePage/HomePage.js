@@ -4,6 +4,8 @@ import github from '../../assets/images/icons/icons8-github.svg';
 import linkedin from '../../assets/images/icons/icons8-linkedin.svg';
 import email from '../../assets/images/icons/icons8-email-50.png';
 
+import QRCode from 'qrcode.react';
+
 function HomePage() {
     return (
         <main className="home">
@@ -11,7 +13,16 @@ function HomePage() {
             <div className='stars2'></div>
             <div className='stars3'></div>
 
+            <article className='tablet'>
+                <h1 className='tablet__title'>
+                    OOPS!
+                </h1>
+                <p className='tablet__text'>
+                    this site is currently only available on mobile. please scan below to access on mobile device and stay tuned for updates!
 
+                </p>
+                <QRCode value='www.andreamatos.dev' />
+            </article>
 
             <article className='mobile'>
 
