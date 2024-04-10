@@ -1,0 +1,30 @@
+@function multiple-box-shadow ($n) {
+    $value: '#{random(2000)}px #{random(2000)}px #FFF';
+
+    @for $i from 2 through $n {
+        $value: '#{$value} , #{random(2000)}px #{random(2000)}px #FFF';
+    }
+
+    @return unquote($value);
+
+}
+
+//space ship
+$space: #435d70;
+$space-shadow: #374d5c;
+$ship: #eee;
+$mars: #ff5f40;
+$alien: #1aae1e;
+$gray: #aaa;
+$timing: 12s;
+$curve1: cubic-bezier(0.455, 0.03, 0.615, 0.555);
+$curve2: cubic-bezier(0.645, 0.045, 0.355, 1);
+
+//star shadows (background)
+$shadows-small: multiple-box-shadow(700);
+$shadows-medium: multiple-box-shadow(200);
+$shadows-big: multiple-box-shadow(100);
+
+//background gradients
+$home-grey: #1B2735;
+$home-black: #090A0F;
